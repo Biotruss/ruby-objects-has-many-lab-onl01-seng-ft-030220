@@ -12,7 +12,7 @@ class Author
   end
   
   def add_post
-    post.author = self #adds post to this instance of the class Author
+    post.author = self #associates this post to this instance of the class Author
   end
   
   def add_post_by_title(title)
