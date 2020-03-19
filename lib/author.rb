@@ -11,8 +11,8 @@ class Author
     @@all 
   end
   
-  def add_post(post)
-    post.author = self #associates this post to this instance of the Author class
+  def add_post(title)
+    title.author = self #associates this post to this instance of the Author class
   end
   
   def add_post_by_title(title)
