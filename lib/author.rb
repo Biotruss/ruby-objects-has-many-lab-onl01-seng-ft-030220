@@ -11,6 +11,10 @@ class Author
     @@all 
   end
   
+  def add_post
+    
+  end
+  
   def posts 
     
   end
